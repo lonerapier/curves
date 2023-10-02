@@ -12,6 +12,7 @@ pub mod g2;
 #[cfg(test)]
 mod tests;
 
+#[derive(Debug, Copy, Clone, Default, PartialEq, Eq)]
 pub struct Config;
 
 impl BnConfig for Config {

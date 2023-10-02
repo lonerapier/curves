@@ -8,7 +8,7 @@ use ark_ff::{AdditiveGroup, BigInt, Field, MontFp, PrimeField, Zero};
 
 use crate::{Fq, Fr};
 
-#[derive(Clone, Default, PartialEq, Eq)]
+#[derive(Debug, Clone, Default, PartialEq, Eq)]
 pub struct Config;
 
 pub type G1Affine = Affine<Config>;

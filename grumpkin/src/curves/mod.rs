@@ -11,7 +11,7 @@ use ark_ff::{AdditiveGroup, Field, MontFp, Zero};
 #[cfg(test)]
 mod tests;
 
-#[derive(Copy, Clone, Default, PartialEq, Eq)]
+#[derive(Debug, Copy, Clone, Default, PartialEq, Eq)]
 pub struct GrumpkinConfig;
 
 impl CurveConfig for GrumpkinConfig {
